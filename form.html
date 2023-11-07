@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION-FORM</title>
+    <link rel="shortcut icon" href="New folder/favicon.jfif" type="image/x-icon">
+</head>
+<body>
+
+<form action="#" method="post">
+    <h1 style="text-align: center;">ADMISSION-FORM</h1><hr><br>
+    <p><label for="1st">FAST NAME <b>:</b> </label><input type="text" id="1st" name="FAST NAME" placeholder="FAST NAME" required></p>
+    <p><label for="2nd">LAST NAME <b>:</b> </label><input type="text" id="2nd" name="LAST NAME" placeholder="LAST NAME" required></p>
+    <p><label for="3rd">EMAIL <b>:</b> <input type="email" id="3rd" name="EMAIL" placeholder="EMAIL ADDRESS" required></label></p>
+    <p><label for="4th">PASSWORD <b>:</b> </label><input type="password" id="4th" name="PASSWORD" placeholder="PASSWORD" required></p>
+    <p><label for="5th">PHONE NUMBER <b>:</b> </label>
+        <select name="COUNTRY CODE" required>
+            <option value="+880">+880</option>
+            <option value="+999">+999</option>
+            <option value="+231">+231</option>
+            <option value="+131">+131</option>
+            <option value="+241">+241</option>
+            <option value="+235">+235</option>
+            <option value="+921">+921</option>
+            <option value="+551">+551</option>
+            <option value="+201">+201</option>
+            <option value="+230">+230</option>
+        </select>
+        <input type="tel" id="5th" name="PHONE NUMBER" placeholder="PHONE NUMBER 12345678" required></p>
+    <P><label for="cnt">SELECT YOUR COUNTRY <b>:</b> </label><input list="con" id="cnt" required>
+        <datalist id="con" name="country">
+        <option value="bangladesh">bangladesh</option>
+        <option value="india">india</option>
+        <option value="pakisthan">pakisthan</option>
+        <option value="bhutan">bhutan</option>
+        <option value="napel">napel</option>
+        <option value="shrilanka">shrilanka</option>
+        <option value="mianmar">mianmar</option>
+        <option value="chine">chine</option>
+        <option value="rusia">rusia</option>
+        <option value="ucran">ucran</option></datalist></P>
+    <p>GENDER <b>:</b>
+        <input type="radio" id="6.1" name="GENDER">
+        <label for="6.1">MALE</label>
+        <input type="radio" id="6.2" name="GENDER">
+        <label for="6.2">FEMAIL</label>
+        <input type="radio" id="6.3" name="GENDER">
+        <label for="6.3">OTHER'S</label></p>
+    <p><label for="7th">BIRTH DATE <b>:</b> </label><input type="date" id="7th" name="BIRTH DATE" required></p>
+    <p><label for="8th">FORM FILUP TIME <b>:</b> </label><input type="time" id="8th" name="FORM FILUP TIME" required></p>
+    <p><label for="9th">YOUR FAVOURITE COLOR <b>:</b> </label><input type="color" id="9th" name="FAVOURITE COLOR" required></p>
+    <p><label for="10th">YOUR PHOTO <b>:</b> </label><input type="file" id="10th" name="PHOTO" required></p>
+    <P><input type="checkbox" id="11th" name="BIKE"><label for="11th">I HAVE A BIKE</label></P>
+    <P><input type="checkbox" id="12th" name="BYCYCLE"><label for="11th">I HAVE A BYCYCLE</label></P>
+    <P><input type="checkbox" id="13th" name="CAR"><label for="11th">I HAVE A CAR</label></P>
+    <textarea name="PERSONAL DETAILS" cols="30" rows="10" placeholder="SAY SOMTHING FOR YOU" required></textarea>
+    <p><input type="submit" value="submit" required> <input type="reset" value="reset"></p>
+</form>
+
+</body>
+
+</html>
