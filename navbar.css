@@ -1,4 +1,7 @@
-li{list-style: none; float: left;
-    padding-left: 40px;}
+nav > ul > li{list-style: none; padding-left: 40px;}
+nav > ul > li{float: left;}
 a{text-decoration: none; color: black;}
 a:hover{background-color: darkgrey;}
+.qwe{display: none; position: absolute; list-style: none;
+background-color: lightgray; padding: 0px;}
+.poi:hover > ul{display: block;}
